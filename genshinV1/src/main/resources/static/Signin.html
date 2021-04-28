@@ -1,0 +1,42 @@
+
+<html>
+
+<head>
+<base href=".">
+<link rel="stylesheet" href="wrapper.css">
+</head>
+
+<body>
+	<div id="navbar">
+        <a href="/">Menu</a> 
+        <a href="personajes">Personajes</a>
+        <a href="armas">Armas</a>
+         <a href="Artefacto">Artefactos</a>
+          <a href="Equipo">Equipo</a>
+           <a href="borraEquipo.html">BorraEquipo</a>
+           <a href="/logout">LogOut</a>
+  <a href="Signin">Login</a>
+  
+  
+  
+</div>  
+	
+	<form method="post" action='/Signin'>
+	
+	<p>Usa esta pagina para registrarte:</p>
+	
+	<h1><p>Nombre de usuario:</p></h1>
+	<input type='text' name='username'>
+	<h1><p>Contraseña:</p></h1>
+	<input type='password' name='password'>
+	
+	
+	<input type='submit' value='Log in'>
+	
+
+
+<input type="hidden" name="_csrf" value="{{token}}"/>
+	
+</form>
+	</body>
+</html>
