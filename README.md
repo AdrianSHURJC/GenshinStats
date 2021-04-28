@@ -61,6 +61,10 @@ Aqui se van a poder ver los equipos que se vayan creando con sus estadisticas su
 Desplegable del equipo seleccionado dentro de la lista de equipos
 ![verEquipo](https://user-images.githubusercontent.com/78809457/116478735-dce0d580-a87e-11eb-89d7-5da5509143a8.png)
 
+## generarPDF:
+Genera un texto en una URL con los datos que le envia la API REST sobre el personaje seleccionado en verEquipo
+*imagen aqui*
+
 ## Signup:
 Registrar usuarios
 ![signup](https://user-images.githubusercontent.com/78809457/116478474-67750500-a87e-11eb-9f5c-68a1bb42a268.png)
