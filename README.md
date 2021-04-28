@@ -34,23 +34,48 @@ Santiago Ramos Gómez- s.ramosg.2018@alumnos.urjc.es  - sRamosg2018
 Es la ventana inicial,desde esta se puede navegar a todas las demás, en un futuro contendrá una interfaz.
 Cabe destacar que todas las demás ventanas cuentan con esta barra de navegación.
 
-![menu](https://user-images.githubusercontent.com/78809622/110457860-653ac980-80cb-11eb-8c73-ba30d95f0d93.png)
+![menu](https://user-images.githubusercontent.com/78809457/116477931-9ccd2300-a87d-11eb-8f23-7424ba9009db.png)
 
 ## Personajes:
 Contiene una lista de personajes de distintos tipos junto con sus estadísticas.
 
-![personajes](https://user-images.githubusercontent.com/78809622/110459695-94ead100-80cd-11eb-9490-bb4e7202df3a.png)
+![personajes](https://user-images.githubusercontent.com/78809457/116478102-db62dd80-a87d-11eb-9ee9-e79d5d185428.png)
 ## Armas: 
 Contiene una lista de varias armas de distinto tipo y rarezas, ademas, cada una de ellas incluye sus estadísticas primarias y secundarias, con los valores a nivel 1 y 90 (mínimo y máximo hasta la fecha). Ademas, de una definición de su pasiva, con disitintos valores (nivel de refinamiento que va del 1 al 5).En este apartado se encuentra un menu de navegación no funcional debido a un problema con los id. 
 
-![armas](https://user-images.githubusercontent.com/78809622/110457777-489e9180-80cb-11eb-8434-35f420e73d50.png)
+![armas](https://user-images.githubusercontent.com/78809457/116478055-cc7c2b00-a87d-11eb-9b94-ae7ac2c563e1.png)
 ## Artefactos:
 Contiene una lista de distintos artefactos junto con sus respectivas pasivas en función de las piezas equipadas de este mismo tipo, 2 o 4.
 ![artefactos](https://user-images.githubusercontent.com/78809622/110457803-5227f980-80cb-11eb-85ff-966c0f9d59df.png)
-## Equipo:
-Por último, en esta ventana se puede añadir un personaje, arma y set de artefacto para generar un personaje con equipación, estos se pueden añadir a un equipo.
+
+##Crear Equipo:
+En esta ventana se puede añadir un personaje, arma y set de artefacto para generar un personaje con equipación, estos se pueden añadir a un equipo.
 Esta ventana va a sufrir cambios tanto para mejorar su usabilidad y una vez se avance en la calculadora.
-![equipo](https://user-images.githubusercontent.com/78809622/110457823-58b67100-80cb-11eb-92e4-41bbce031699.png)
+![equipo](https://user-images.githubusercontent.com/78809457/116478148-ed448080-a87d-11eb-9631-dcdd499bfcac.png)
+
+##listaEquipos
+Aqui se van a poder ver los equipos que se vayan creando con sus estadisticas sumadas despues de realizar el calculo.
+![listaEquipos](https://user-images.githubusercontent.com/78809457/116478662-b458db80-a87e-11eb-85e9-6040301b7d1c.png)
+
+##verEquipo
+Desplegable del equipo seleccionado dentro de la lista de equipos
+![verEquipo](https://user-images.githubusercontent.com/78809457/116478735-dce0d580-a87e-11eb-89d7-5da5509143a8.png)
+
+##Signup
+Registrar usuarios
+![signup](https://user-images.githubusercontent.com/78809457/116478474-67750500-a87e-11eb-9f5c-68a1bb42a268.png)
+
+##Signin
+Pagina empleada por los usuarios para acceder con su cuenta
+![login](https://user-images.githubusercontent.com/78809457/116478612-9ee3b180-a87e-11eb-8598-6c9fc45fe9c4.png)
+
+##private
+pagina de bienvenida a la que solo se puede acceder si estas logeado con un usuario
+![private](https://user-images.githubusercontent.com/78809457/116478833-fda92b00-a87e-11eb-8a93-e2ec94d3fe83.png)
+
+##borrarEquipo
+pagina privada, de uso exclusivo para administradores, de momento solo muestra una imagen pero la intencion es que se puedan borrar los equipos desde aqui
+![borrarEquipo](https://user-images.githubusercontent.com/78809457/116478977-3cd77c00-a87f-11eb-8511-07981d119fde.png)
 
 ## Diagrama de clases y templates:
 Diagrama de clases:
