@@ -28,7 +28,7 @@ Santiago Ramos Gómez- s.ramosg.2018@alumnos.urjc.es  - sRamosg2018
 ![E_R_DAD](https://user-images.githubusercontent.com/78809457/110383425-86180600-805c-11eb-9e41-7f5b7d4d82f0.jpg)
 
 ## Diagrama navegación:
-![diagrama de navegación](https://user-images.githubusercontent.com/78809622/110458051-9ddaa300-80cb-11eb-81b1-b08d0f324c83.png)
+![diagrama de navegación](https://user-images.githubusercontent.com/78809457/116481592-c5f0b200-a883-11eb-869d-75bb13a5b448.png)
 
 ## Menú:
 Es la ventana inicial,desde esta se puede navegar a todas las demás, en un futuro contendrá una interfaz.
