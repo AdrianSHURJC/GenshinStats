@@ -53,27 +53,27 @@ En esta ventana se puede añadir un personaje, arma y set de artefacto para gene
 Esta ventana va a sufrir cambios tanto para mejorar su usabilidad y una vez se avance en la calculadora.
 ![equipo](https://user-images.githubusercontent.com/78809457/116478148-ed448080-a87d-11eb-9631-dcdd499bfcac.png)
 
-##listaEquipos
+## listaEquipos:
 Aqui se van a poder ver los equipos que se vayan creando con sus estadisticas sumadas despues de realizar el calculo.
 ![listaEquipos](https://user-images.githubusercontent.com/78809457/116478662-b458db80-a87e-11eb-85e9-6040301b7d1c.png)
 
-##verEquipo
+## verEquipo:
 Desplegable del equipo seleccionado dentro de la lista de equipos
 ![verEquipo](https://user-images.githubusercontent.com/78809457/116478735-dce0d580-a87e-11eb-89d7-5da5509143a8.png)
 
-##Signup
+## Signup:
 Registrar usuarios
 ![signup](https://user-images.githubusercontent.com/78809457/116478474-67750500-a87e-11eb-9f5c-68a1bb42a268.png)
 
-##Signin
+## Signin:
 Pagina empleada por los usuarios para acceder con su cuenta
 ![login](https://user-images.githubusercontent.com/78809457/116478612-9ee3b180-a87e-11eb-8598-6c9fc45fe9c4.png)
 
-##private
+## private:
 pagina de bienvenida a la que solo se puede acceder si estas logeado con un usuario
 ![private](https://user-images.githubusercontent.com/78809457/116478833-fda92b00-a87e-11eb-8a93-e2ec94d3fe83.png)
 
-##borrarEquipo
+## borrarEquipo:
 pagina privada, de uso exclusivo para administradores, de momento solo muestra una imagen pero la intencion es que se puedan borrar los equipos desde aqui
 ![borrarEquipo](https://user-images.githubusercontent.com/78809457/116478977-3cd77c00-a87f-11eb-8511-07981d119fde.png)
 
