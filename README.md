@@ -71,15 +71,15 @@ Registrar usuarios
 
 ## Signin:
 Pagina empleada por los usuarios para acceder con su cuenta
-![login](https://user-images.githubusercontent.com/78809457/116478612-9ee3b180-a87e-11eb-8598-6c9fc45fe9c4.png)
+![login](https://user-images.githubusercontent.com/78809457/116523363-74254780-a8d6-11eb-94f0-b4dbca726d55.png)
 
 ## private:
 pagina de bienvenida a la que solo se puede acceder si estas logeado con un usuario
-![private](https://user-images.githubusercontent.com/78809457/116478833-fda92b00-a87e-11eb-8a93-e2ec94d3fe83.png)
+![private](https://user-images.githubusercontent.com/78809457/116523454-8acb9e80-a8d6-11eb-8722-63c339d7b892.png)
 
 ## borrarEquipo:
 pagina privada, de uso exclusivo para administradores, de momento solo muestra una imagen pero la intencion es que se puedan borrar los equipos desde aqui
-![borrarEquipo](https://user-images.githubusercontent.com/78809457/116478977-3cd77c00-a87f-11eb-8511-07981d119fde.png)
+![borrarEquipo](https://user-images.githubusercontent.com/78809457/116523505-96b76080-a8d6-11eb-865b-4856385a5e1f.png)
 
 ## Diagrama de clases y templates:
 Diagrama de clases:
