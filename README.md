@@ -46,7 +46,7 @@ Contiene una lista de varias armas de distinto tipo y rarezas, ademas, cada una 
 ![armas](https://user-images.githubusercontent.com/78809457/116478055-cc7c2b00-a87d-11eb-9b94-ae7ac2c563e1.png)
 ## Artefactos:
 Contiene una lista de distintos artefactos junto con sus respectivas pasivas en función de las piezas equipadas de este mismo tipo, 2 o 4.
-![artefactos](https://user-images.githubusercontent.com/78809622/110457803-5227f980-80cb-11eb-85ff-966c0f9d59df.png)
+![artefactos](https://user-images.githubusercontent.com/78809457/116524622-e0547b00-a8d7-11eb-813c-1cfcce82ae96.png)
 
 ##Crear Equipo:
 En esta ventana se puede añadir un personaje, arma y set de artefacto para generar un personaje con equipación, estos se pueden añadir a un equipo.
