@@ -1,6 +1,9 @@
 # GenshinStats
 Nombre de la aplicación web: GenshinStats
 
+# GenshinStats API REST (Servicio interno)
+Link a la API REST: https://github.com/AdrianSHURJC/GenshinStats_REST
+
 ## Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada y diferente para cada usuario: 
 Sitio web de consulta sobre el juego "Genshin Impact", dentro de este juego, se tienen distintos personajes, estos se pueden equipar con 5 tipos diferentes de artefactos y un arma. Se podrán consultar las estadísticas base de cada personaje, arma y artefacto y como van creciendo a lo lago de los niveles. Además se proporcionará una calculadora donde podrá visualizar como quedaría un personaje con las características que el usuario prefiera. Todo esto, sería publico, para la parte privada se podría implementar una funcionalidad para guardar un personaje ya construido y poder visualizarlo y actualizarlo cuando se prefiera.
 
