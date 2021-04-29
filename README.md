@@ -63,7 +63,7 @@ Desplegable del equipo seleccionado dentro de la lista de equipos
 
 ## generarPDF:
 Genera un texto en una URL con los datos que le envia la API REST sobre el personaje seleccionado en verEquipo
-*imagen aqui*
+![generarPDF](https://user-images.githubusercontent.com/78809457/116524831-201b6280-a8d8-11eb-9217-986c459daa0b.png)
 
 ## Signup:
 Registrar usuarios
