@@ -1,7 +1,5 @@
 # GenshinStats
 Nombre de la aplicación web: GenshinStats
-# GenshinStats API REST
-Link a la API REST: https://github.com/AdrianSHURJC/GenshinStats_REST
 
 ## Descripción de la temática de la web, indicando qué funcionalidad es pública y cual es privada y diferente para cada usuario: 
 Sitio web de consulta sobre el juego "Genshin Impact", dentro de este juego, se tienen distintos personajes, estos se pueden equipar con 5 tipos diferentes de artefactos y un arma. Se podrán consultar las estadísticas base de cada personaje, arma y artefacto y como van creciendo a lo lago de los niveles. Además se proporcionará una calculadora donde podrá visualizar como quedaría un personaje con las características que el usuario prefiera. Todo esto, sería publico, para la parte privada se podría implementar una funcionalidad para guardar un personaje ya construido y poder visualizarlo y actualizarlo cuando se prefiera.
@@ -16,7 +14,7 @@ Sitio web de consulta sobre el juego "Genshin Impact", dentro de este juego, se 
 4.Equipo: La entidad equipo le permiten guardar al usuario los diferentes equipos y las estadisticas del personaje actualizadas con la suma del arma y el set de artefactos.
 
 ## Descripción de las funcionalidades del servicio interno: 
-Generar PDF del Objeto Equipo: Devuelve una plantilla que ocntiene un String dado por la REST, el cual contiene las estdísticas actualizadas a partir de el artefeacto y arma seleccionada.
+Generar PDF del Objeto Equipo: genera un PDF de un Equipo que se puede encontrar en la lista de Equipos
 
 ## Integrantes del equipo de desarrollo:
 Adrián Sanz Hervás- a.sanzh.2017@alumnos.urjc.es -AdrianSHURJC
@@ -91,4 +89,15 @@ Diagrama de templates:
 ![diagrama de templates](https://user-images.githubusercontent.com/78809457/115625974-20769500-a2fd-11eb-8151-9658b8530451.png)
 
 ## Instrucciones de ejecucion:
-*Introducir texto serio aqui*
+Una vez creada la maquina virtual:
+
+$ sudo apt install openjdk-8-jdk-headless
+$ sudo apt install mysql-server
+$ sudo mysql_secure_installation (Configuración de mysql)
+$ mysqld --initialize (En caso de que no cree el directorio)
+$ sudo mysql
+$ mysql> create database gonzalogenshin;
+$ mysql> CREATE USER 'admin'@'localhost' IDENTIFIED BY 'administrador';
+$ mysql> GRANT ALL ON gonzalogenshin.* to 'admin'@'localhost';
+$ java -jar Genshin_Stats-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se encuentra)
+$ java -jar Genshin_Stats_Rest-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se encuentra)
