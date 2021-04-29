@@ -14,7 +14,7 @@ Sitio web de consulta sobre el juego "Genshin Impact", dentro de este juego, se 
 4.Equipo: La entidad equipo le permiten guardar al usuario los diferentes equipos y las estadisticas del personaje actualizadas con la suma del arma y el set de artefactos.
 
 ## Descripción de las funcionalidades del servicio interno: 
-Generar PDF del Objeto Equipo: genera un PDF de un Equipo que se puede encontrar en la lista de Equipos
+Generar PDF del Objeto Equipo: Devuelve una plantilla que ocntiene un String dado por la REST, el cual contiene las estdísticas actualizadas a partir de el artefeacto y arma seleccionada.
 
 ## Integrantes del equipo de desarrollo:
 Adrián Sanz Hervás- a.sanzh.2017@alumnos.urjc.es -AdrianSHURJC
