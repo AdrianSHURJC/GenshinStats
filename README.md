@@ -92,12 +92,21 @@ Diagrama de templates:
 Una vez creada la maquina virtual:
 
 $ sudo apt install openjdk-8-jdk-headless
+
 $ sudo apt install mysql-server
+
 $ sudo mysql_secure_installation (Configuración de mysql)
+
 $ mysqld --initialize (En caso de que no cree el directorio)
+
 $ sudo mysql
+
 $ mysql> create database gonzalogenshin;
+
 $ mysql> CREATE USER 'admin'@'localhost' IDENTIFIED BY 'administrador';
+
 $ mysql> GRANT ALL ON gonzalogenshin.* to 'admin'@'localhost';
+
 $ java -jar Genshin_Stats-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se encuentra)
+
 $ java -jar Genshin_Stats_Rest-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se encuentra)
