@@ -1,0 +1,25 @@
+{{>header}}
+
+
+<ul>
+
+<link href="bloques.css" rel="stylesheet">
+<div class="cards">
+{{#artefactos}}
+<div class="card">
+    <img src="" class="card__image"  alt="">
+    
+	<div class="card__content">    
+	
+ 	<h1>{{rareza}}</span></h1>
+	<h2>{{nombre}}</span></h2>
+	<p><h4>2-pieces bonus <br>{{buff1}}</p></h4>
+	<p><h4>4-pieces bonus <br>{{buff2}}</p></h4>
+	</div>
+	</div>
+{{/artefactos}}
+
+</div>
+</ul>
+
+{{>footer}}

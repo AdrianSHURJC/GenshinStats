@@ -1,0 +1,44 @@
+{{>header}}
+  
+	<form method="post" action='listaEquipo'>
+		<p>Escribe tu personaje y el equipamiento que quieras:</p>
+
+		<h1>
+			<p>Personaje:</p>
+		</h1>
+		<input list="personajes" type='text' name='PJ'>
+		<h1>
+			<p>Arma:</p>
+		</h1>
+		<input list="armas" type='text' name='ARMA'>
+		<h1>
+			<p>Artefacto:</p>
+		</h1>
+		<input list="artefactos" type='text' name='ARTEFACTO'> 
+
+<datalist id="personajes">	
+{{#personajes}}
+  <option value={{name}}>
+{{/personajes}}
+</datalist>
+
+<datalist id="armas">	
+{{#armas}}
+  <option value='{{nombre}}'>
+{{/armas}}
+</datalist>
+
+
+<datalist id="artefactos">	
+{{#artefactos}}
+  <option value='{{nombre}}'>
+{{/artefactos}}
+</datalist>
+
+		
+
+<br>
+<br>
+		<input type='submit' value='Crear'>
+	</form>
+{{>footer}}

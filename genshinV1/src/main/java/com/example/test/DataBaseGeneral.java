@@ -1,10 +1,14 @@
 package com.example.test;
 
+import java.util.Map;
 import java.util.Optional;
 
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.concurrent.ConcurrentMapCache;
+import org.springframework.cache.concurrent.ConcurrentMapCacheManager;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
@@ -13,6 +17,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 
@@ -44,6 +50,16 @@ public class DataBaseGeneral implements CommandLineRunner {
 	
 	@Autowired
 	private UsuarioRepository ur;
+	
+	@Autowired
+    private CacheManager cacheManager;
+
+    @RequestMapping(value="/cache", method=RequestMethod.GET)
+    public Map<Object, Object> getCacheContent (){
+        ConcurrentMapCacheManager cacheMgr = (ConcurrentMapCacheManager) cacheManager;
+        ConcurrentMapCache cache = (ConcurrentMapCache) cacheMgr.getCache("personajes");
+        return cache.getNativeCache();
+    }
 	
 	@Override
 	public void run(String... args) throws Exception {

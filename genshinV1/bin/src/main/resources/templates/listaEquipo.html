@@ -1,0 +1,14 @@
+{{>header}}
+
+<h2>Lista de equipos creados:</h2>
+<link href="bloques.css" rel="stylesheet">
+    <div class="cards">
+    {{#equipos}}
+        <div class="card">
+        <a href="/verEquipo/{{id}}"> <img
+                    src="{{pj.img}}" class="card__image" alt=""></a>
+            <div class="card__content">{{pj.name}}</div>
+        </div>
+        {{/equipos}}
+    </div>
+{{>footer}}
