@@ -9,7 +9,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableRedisHttpSession
 @SpringBootApplication
 public class GenshinStatsApplication {
-	
+	//Prueba de GitHub Commit a la main branch 
 	public static void main(String[] args) {
 		SpringApplication.run(GenshinStatsApplication.class, args);
 	}
