@@ -1,5 +1,6 @@
 package com.example.test;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +19,7 @@ import org.springframework.web.context.annotation.SessionScope;
 @Entity
 @Component
 @SessionScope
-public class User {
+public class User implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

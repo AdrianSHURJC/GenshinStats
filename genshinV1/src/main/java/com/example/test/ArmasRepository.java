@@ -2,9 +2,10 @@ package com.example.test;
 
 import java.util.List;
 
+import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
+@CacheConfig(cacheNames = "armas")
 @Repository
 public interface ArmasRepository extends JpaRepository<Armas, Long> {
 	public List<Armas> findByNombre(String nombre);

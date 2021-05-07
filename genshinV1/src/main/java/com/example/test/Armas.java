@@ -1,4 +1,6 @@
 package com.example.test;
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,7 +9,7 @@ import javax.persistence.Id;
 
 @Entity
 
-public class Armas {
+public class Armas implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

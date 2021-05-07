@@ -2,6 +2,8 @@ package com.example.test;
 
 
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +12,7 @@ import javax.persistence.Id;
 
 
 @Entity
-public class Personaje {
+public class Personaje implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
