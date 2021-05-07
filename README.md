@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # DAD_GenshinStats
 Proyecto de DAD 
-hola buenos dias
 =======
 # GenshinStats
 Nombre de la aplicación web: GenshinStats
