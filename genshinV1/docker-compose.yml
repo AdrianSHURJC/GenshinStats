@@ -1,0 +1,79 @@
+version: '3.7'
+
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:8.0.19
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: 'administrador'
+      MYSQL_DATABASE: 'gonzalogenshin'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'administrador'
+    ports:
+      - 3306:3306
+    volumes:
+      - ./volumes/mysql:/var/lib/mysql
+    restart: 'no'
+
+ 
+  redis:
+    container_name: redis
+    image: 'redis:latest'
+    command: redis-server --requirepass administrador
+    ports:
+      - '6379:6379'
+  
+ 
+  haproxy-web: 
+    container_name: haproxy-web
+    image: 'haproxy:2.1'
+    ports:
+      - '81:80'
+      - '443:443'
+      - '8404:8404'
+    volumes:
+      - ./volumes/haproxy-web:/usr/local/etc/haproxy:ro
+    depends_on:
+      - genshinv1-web-1
+      - genshinv1-web-2
+      
+  genshinv1-web-1:
+    container_name: genshinv1-web-1 
+    image: 'adrihawk/genshinv1-web:4'
+    depends_on:
+       - mysql
+       - redis
+  genshinv1-web-2:
+    container_name:  genshinv1-web-2
+    image: 'adrihawk/genshinv1-web:4'
+    depends_on:
+      - mysql
+      - redis
+ 
+  
+  
+  
+  haproxy-rest:
+    container_name: haproxy-rest
+    image: 'haproxy:2.1'
+    ports:
+      - '8405:8404'
+    volumes:
+      - ./volumes/haproxy-rest:/usr/local/etc/haproxy:ro
+    depends_on:
+      - genshinv1-rest-1
+      - genshinv1-rest-2
+  
+ 
+  genshinv1-rest-1:
+     container_name: genshinv1-rest-1
+     image: 'adrihawk/genshinv1-rest:1'
+     depends_on:
+       - mysql
+       
+  genshinv1-rest-2:
+     container_name: genshinv1-rest-2
+     image: 'adrihawk/genshinv1-rest:1'
+     depends_on:
+       - mysql
