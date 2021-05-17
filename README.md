@@ -118,3 +118,8 @@ $ java -jar Genshin_Stats-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se en
 
 $ java -jar Genshin_Stats_Rest-0.0.1-SNAPSHOT.jar (Hacer cd al directorio donde se encuentra)
 >>>>>>> branch 'main' of https://github.com/AdrianSHURJC/GenshinStats.git
+
+##Documentacion del servicio interno:
+Para este apartado se ha utilizado docker-compose junto con las conexiones directa que esto nos proporciona
+![docker compose](https://user-images.githubusercontent.com/78809457/118528622-d4274500-b742-11eb-81b0-5cee797fedfe.png)
+Dispone, como se puede ver en la imagen superior, de un balanceador de carga, una base de datos, la cache realizada en redis, dos servicios de rest y otros dos de servicio web.
