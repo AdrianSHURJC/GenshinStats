@@ -1,0 +1,144 @@
+{{>header}}
+	<nav class="nav-area">
+		<ul>
+
+			<li><a href="#Mandobles">Mandobles</a>
+				<ul>
+					<li><a href="#">5* Estrellas</a>
+						<ul>
+							<li><a href="#TheUnforged">The Unforged</a></li>
+							<li><a href="#WolfsGravestone">Wolf's Gravestone</a></li>
+							<li><a href="#SkywardPride">Skyward Pride</a></li>
+						</ul></li>
+					<li><a href="#">4* Estrellas</a>
+						<ul>
+							<li><a href="#FavoniusGreatsword">Favonius Greatsword</a></li>
+							<li><a href="#PrototypeArchaic">Prototype Archaic</a></li>
+							<li><a href="#Whiteblind">Whiteblind</a></li>
+						</ul></li>
+					<li><a href="#">3* Estrellas</a>
+						<ul>
+							<li><a href="#BloodtaintedGreatsword">Bloodtainted
+									Greatsword</a></li>
+							<li><a href="#DebateClub">Debate Club</a></li>
+							<li><a href="#FerrousShadow">Ferrous Shadow</a></li>
+						</ul></li>
+				</ul></li>
+			<li><a href="#Espadas">Espadas</a>
+				<ul>
+					<li><a href="#">5* Estrellas</a>
+						<ul>
+							<li><a href="#AquilaFavonia">Aquila Favonia</a></li>
+							<li><a href="#Skyward Blade">Skyward Blade</a></li>
+							<li><a href="#SummitShaper">Summit Shaper</a></li>
+						</ul></li>
+					<li><a href="#">4* Estrellas</a>
+						<ul>
+							<li><a href="#FavoniusSword">Favonius Sword</a></li>
+							<li><a href="#LionsRoar">Lion's Roar</a></li>
+							<li><a href="#SacrificialSword">Sacrificial Sword</a></li>
+						</ul></li>
+					<li><a href="#">3* Estrellas</a>
+						<ul>
+							<li><a href="#CoolSteel">Cool Steel</a></li>
+							<li><a href="#FilletBlade">Fillet Blade</a></li>
+							<li><a href="#SkyriderSword">Skyrider Sword</a></li>
+						</ul></li>
+				</ul></li>
+			<li><a href="#Lanzas">Lanzas</a>
+				<ul>
+					<li><a href="#">5* Estrellas</a>
+						<ul>
+							<li><a href="#VortexVanquisher">Vortex Vanquisher</a></li>
+							<li><a href="#PrimordialJadeWingedSpear">Primordial Jade
+									Winged Spear</a></li>
+							<li><a href="#SkywardSpine">Skyward Spine</a></li>
+						</ul></li>
+					<li><a href="#">4* Estrellas</a>
+						<ul>
+							<li><a href="#FavoniousLance">Favonious Lance</a></li>
+							<li><a href="#RoyalSpear">Royal Spear</a></li>
+							<li><a href="#PrototypeGrudge">Prototype Grudge</a></li>
+						</ul></li>
+					<li><a href="#">3* Estrellas</a>
+						<ul>
+							<li><a href="#BlackTassel">Black Tassel</a></li>
+							<li><a href="#Halberd">Halberd</a></li>
+							<li><a href="#WhiteTassel">White Tassel</a></li>
+						</ul></li>
+				</ul></li>
+			<li><a href="#Arcos">Arcos</a>
+				<ul>
+					<li><a href="#">5* Estrellas</a>
+						<ul>
+							<li><a href="#SkywardHarp">Skyward Harp</a></li>
+							<li><a href="#AmosBow">Amos' Bow</a></li>
+						</ul></li>
+					<li><a href="#">4* Estrellas</a>
+						<ul>
+							<li><a href="#FavoniusWarbow">Favonious Warbow</a></li>
+							<li><a href="#PrototypeCrescent">Prototype Crescent</a></li>
+							<li><a href="#RoyalBow">Royal Bow</a></li>
+						</ul></li>
+					<li><a href="#">3* Estrellas</a>
+						<ul>
+							<li><a href="#Messenger">Messenger</a></li>
+							<li><a href="#RecurveBow">Recurve Bow</a></li>
+							<li><a href="#Slingshot">Slingshot</a></li>
+						</ul></li>
+				</ul></li>
+			<li><a href="#Catalizadores">Catalizadores</a>
+				<ul>
+					<li><a href="#">5* Estrellas</a>
+						<ul>
+							<li><a href="LostPrayertotheSacredWinds">Lost Prayer to
+									the Sacred Winds</a></li>
+							<li><a href="SkywardAtlas">Skyward Atlas</a></li>
+							<li><a href="#MemoryofDust">Memory of Dust</a></li>
+						</ul></li>
+					<li><a href="#">4* Estrellas</a>
+						<ul>
+							<li><a href="#FavoniousCodex">Favonious Codex</a></li>
+							<li><a href="#EyeofPerception">Eye of Perception</a></li>
+							<li><a href="#MappaMare">Mappa Mare</a></li>
+						</ul></li>
+					<li><a href="#">3* Estrellas</a>
+						<ul>
+							<li><a href="#EmeraldOrb">Emerald Orb</a></li>
+							<li><a href="#OtherwordlyStory">Otherwordly Story</a></li>
+							<li><a href="ThrillingTalesofDragonSlayers">Thrilling
+									Tales of Dragon Slayers</a></li>
+						</ul></li>
+				</ul></li>
+
+		</ul>
+	</nav>
+
+
+
+<link href="bloques.css" rel="stylesheet">
+<div class="cards">
+		{{#armas}}
+		<div class="card">
+		 <img src="" class="card__image"  alt="">
+		 <div class="card__content">     
+		<h1>{{tipoDeArma}} {{rareza}}*</h1>
+
+		
+		<h2>{{nombre}}</h2>
+
+		
+		<p><h4>Primary Stat: KEKW</h4></p>
+		
+		
+		
+		<p><h4>Secondary Stat: {{estadistica2}}</h4></p>
+		
+
+		<p><h4>Pasive:</h4>{{descripcion}}</p>
+				 </div>
+		 </div>
+		{{/armas}}
+	  </div>
+	  
+{{>footer}}

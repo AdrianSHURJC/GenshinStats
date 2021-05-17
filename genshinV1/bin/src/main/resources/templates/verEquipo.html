@@ -1,0 +1,31 @@
+{{>header}} 
+	<link href="bloques.css" rel="stylesheet">
+	<div class="cards">
+	<div class="card">
+  
+    <img src="{{equipo.pj.img}}" class="card__image"  alt="">
+    <div class="card__content">    
+     <h1>Nombre: {{equipo.pj.name}}</span></h1>
+     <h1>Arma: {{equipo.arm.nombre}}</h1>
+     <h1>Artefacto: {{equipo.artefact1.nombre}}</h1>
+	<h2>Atributo: {{equipo.pj.atribute}}</span></h2>
+	<h2>Nivel: {{equipo.pj.level}}</span></h2>
+	<h2>Vida Maxima: {{equipo.pj.MaxHP}}</span></h2>
+	<h2>Ataque: {{equipo.pj.ATK}}</span></h2>
+	<h2>Porcentaje de Ataque: {{equipo.pj.PATK}}</span></h2>
+	<h2>Defensa: {{equipo.pj.DEF}}</span></h2>
+	<h2>Maestria Elemental: {{equipo.pj.mastery}}</span></h2>
+	<h2>Probabilidad de Critico: {{equipo.pj.ProbCrit}}</span></h2>
+	<h2>Danyo Critico: {{equipo.pj.DanyoCrit}}</span></h2>
+	<h2>Bono elemental: {{equipo.pj.ElementalBonus}}</span></h2>
+	<h2>Recarga de Energia: {{equipo.pj.EnergyRecharge}}</span></h2>	
+    </div>
+  	  
+    <a href="/generarPDF/{{equipo.id}}">
+    <button>Generar PDF</button>
+	</a>
+	
+    </div>	
+    </div>	
+</body>
+</html>
