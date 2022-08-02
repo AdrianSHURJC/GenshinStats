@@ -1,6 +1,5 @@
 
 # DAD_GenshinStats
-Proyecto de DAD
 =======
 # GenshinStats
 Se busca realizar una aplicación web con gran transfondo de Backend; añadiendo permisos, conexión a una API y dockerización. 
