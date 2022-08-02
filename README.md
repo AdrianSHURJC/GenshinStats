@@ -1,9 +1,13 @@
 
 # DAD_GenshinStats
-Proyecto de DAD basado en Backend e ignorando Frontend en gran medida
+Proyecto de DAD
 =======
 # GenshinStats
+Se busca realizar una aplicación web con gran transfondo de Backend; añadiendo permisos, conexión a una API y dockerización. 
+La parte Frontend NO es evaluable, por lo que se ignorara en gran medida el aspecto estilístico.
+
 Nombre de la aplicación web: GenshinStats
+
 
 # GenshinStats API REST (Servicio interno)
 Link a la API REST: https://github.com/AdrianSHURJC/GenshinStats_REST
