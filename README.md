@@ -1,6 +1,6 @@
 
 # DAD_GenshinStats
-Proyecto de DAD 
+Proyecto de DAD basado en Backend e ignorando Frontend en gran medida
 =======
 # GenshinStats
 Nombre de la aplicación web: GenshinStats
