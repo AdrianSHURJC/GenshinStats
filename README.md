@@ -1,6 +1,6 @@
 
 # DAD_GenshinStats
-=======
+
 # GenshinStats
 Se busca realizar una aplicación web con gran transfondo de Backend; añadiendo permisos, conexión a una API y dockerización. 
 La parte Frontend NO es evaluable, por lo que se ignorara en gran medida el aspecto estilístico.
