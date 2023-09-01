@@ -10,7 +10,7 @@ Nombre de la aplicación web: GenshinStats
 
 # GenshinStats API REST (Servicio interno)
 Link a la API REST: https://github.com/AdrianSHURJC/GenshinStats_REST
-# Video explicativo de la web
+# Video explicativo de la web [YOUTUBE]
 https://www.youtube.com/watch?v=e06dqcPADDw&ab_channel=Adri%C3%A1nSanz
 
 [![IMAGE ALT TEXT](https://i.ytimg.com/vi/wofB1wzyYYI/hqdefault.jpg)](https://www.youtube.com/watch?v=e06dqcPADDw "Video explicativo")
